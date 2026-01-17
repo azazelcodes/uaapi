@@ -1,0 +1,11 @@
+{
+    "name": "Test",
+    "by": "Test",
+    "desc": "Test",
+    "cond": {
+        "kill": {"player":1,"pig":1},
+        "collect": {"arrow":1}
+    },
+    "rew": {
+    }
+}
