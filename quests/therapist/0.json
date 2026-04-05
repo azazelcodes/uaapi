@@ -7,7 +7,7 @@
     },
     "rew": {
         "rep": 0.01,
-        "items": ["5 Cooked Porkchops"],
+        "items": {"cooked_porkchop":5},
         "cur": 500
     }
 }
