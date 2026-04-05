@@ -1,6 +1,5 @@
 {
     "name": "Test",
-    "by": "Test",
     "desc": "Test",
     "cond": {
         "kill": {"player":1,"pig":1},
