@@ -1,0 +1,37 @@
+[
+    {
+        "cur": 3500,
+        "flint": 9,
+        "stone_button": 8,
+        "stick": 7,
+        "iron_nugget": 4,
+        "gunpowder": 8,
+        "lead": 5
+    },
+    {
+        "cur": 5500,
+        "blaze_rod": 1,
+        "stick": 13,
+        "iron_nugget": 5,
+        "gunpowder": 18,
+        "string": 46
+    },
+    {
+        "cur": 11200,
+        "iron_ingot": 8,
+        "iron_nugget": 9,
+        "prismarine_shard": 2,
+        "gunpowder": 64,
+        "twisting_vines": 4,
+        "gold_ingot": 4
+    },
+    {
+        "cur": 21000,
+        "iron_ingot": 12,
+        "iron_nugget": 14,
+        "prismarine_shard": 4,
+        "gunpowder": 64,
+        "twisting_vines": 4,
+        "gold_ingot": 4
+    }
+]

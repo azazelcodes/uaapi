@@ -1,0 +1,38 @@
+[
+    {
+        "cur": 5600,
+        "fern": 20,
+        "bamboo": 6,
+        "stone_button": 8,
+        "wheat": 17,
+        "string": 3,
+        "lead": 1
+    },
+    {
+        "cur": 9500,
+        "kelp": 43,
+        "stick": 6 ,
+        "sugar": 13,
+        "brown_mushroom": 10,
+        "gold_nugget": 7,
+        "lead": 8
+    },
+    {
+        "cur": 14500,
+        "vines": 5,
+        "blaze_rod": 1,
+        "sugar": 55,
+        "brown_mushroom": 64,
+        "raw_gold": 6,
+        "twisting_vines": 1
+    },
+    {
+        "cur": 22000,
+        "vines": 12,
+        "blaze_rod": 2,
+        "sugar": 64,
+        "brown_mushroom": 64,
+        "raw_gold": 10,
+        "twisting_vines": 3
+    }
+]
