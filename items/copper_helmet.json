@@ -1,0 +1,13 @@
+{
+  "name": "Copper Helmet",
+  "sell": 9,
+  "buy": [
+    {
+      "npc": "ragman",
+      "rep": 0,
+      "price": { "cur": 150 },
+      "enchantments": { "protection": 1 },
+      "amount": 1
+    }
+  ]
+}

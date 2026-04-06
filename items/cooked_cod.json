@@ -1,0 +1,11 @@
+{
+  "name": "Cooked Cod",
+  "buy": [
+    {
+      "npc": "therapist",
+      "rep": 0,
+      "price": { "cod": 1 },
+      "amount": 1
+    }
+  ]
+}

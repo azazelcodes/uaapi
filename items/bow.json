@@ -1,0 +1,15 @@
+{
+  "name": "Bow",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 1800,
+      "price": {
+        "stick": 2,
+        "string": 3,
+        "tripwire_hook": 1
+      },
+      "amount": 1
+    }
+  ]
+}

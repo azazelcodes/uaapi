@@ -1,0 +1,11 @@
+{
+  "name": "Raw Mutton",
+  "buy": [
+    {
+      "npc": "therapist",
+      "rep": 0,
+      "price": { "cur": 7 },
+      "amount": 2
+    }
+  ]
+}

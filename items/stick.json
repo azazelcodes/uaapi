@@ -1,0 +1,11 @@
+{
+  "name": "Stick",
+  "buy": [
+    {
+      "npc": "mechanic",
+      "rep": 0,
+      "price": { "wooden_sword": 2 },
+      "amount": 1
+    }
+  ]
+}

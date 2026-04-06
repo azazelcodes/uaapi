@@ -1,0 +1,11 @@
+{
+  "name": "Wooden Axe",
+  "buy": [
+    {
+      "npc": "mechanic",
+      "rep": 0,
+      "price": { "cur": 15 },
+      "amount": 1
+    }
+  ]
+}

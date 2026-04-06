@@ -1,0 +1,17 @@
+{
+  "name": "Shield",
+  "buy": [
+    {
+      "npc": "ragman",
+      "rep": 0,
+      "price": { "oak_button": 8 },
+      "amount": 1
+    },
+    {
+      "npc": "ragman",
+      "rep": 0,
+      "price": { "cur": 30 },
+      "amount": 1
+    }
+  ]
+}

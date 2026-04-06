@@ -1,0 +1,12 @@
+{
+  "name": "String",
+  "sell": 1,
+  "buy": [
+    {
+      "npc": "mechanic",
+      "rep": 0,
+      "price": { "kelp": 10 },
+      "amount": 1
+    }
+  ]
+}

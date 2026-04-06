@@ -1,0 +1,15 @@
+{
+  "name": "Arrow",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 1800,
+      "price": {
+        "stick": 5,
+        "flint": 5,
+        "feather": 5
+      },
+      "amount": 30
+    }
+  ]
+}

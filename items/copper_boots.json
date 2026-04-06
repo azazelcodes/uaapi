@@ -1,0 +1,12 @@
+{
+  "name": "Copper Boots",
+  "buy": [
+    {
+      "npc": "ragman",
+      "rep": 0,
+      "price": { "cur": 140 },
+      "enchantments": { "protection": 1 },
+      "amount": 1
+    }
+  ]
+}

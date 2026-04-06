@@ -1,0 +1,13 @@
+{
+    "name": "Leather",
+    "buy": [
+        {
+            "npc": "ragman",
+            "rep": 0,
+            "price": {
+                "leather_leggings": 2
+            },
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Copper Sword",
+  "buy": [
+    {
+      "npc": "mechanic",
+      "rep": 0,
+      "price": { "cur": 45 },
+      "enchantments": { "sharpness": 1 },
+      "amount": 1
+    },
+    {
+      "npc": "mechanic",
+      "rep": 0,
+      "price": {
+        "copper_ingot": 2,
+        "bamboo": 1
+      },
+      "enchantments": { "sharpness": 1 },
+      "amount": 1
+    }
+  ]
+}

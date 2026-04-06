@@ -1,0 +1,11 @@
+{
+  "name": "Carrot",
+  "buy": [
+    {
+      "npc": "therapist",
+      "rep": 0,
+      "price": { "cur": 6 },
+      "amount": 2
+    }
+  ]
+}

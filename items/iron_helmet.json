@@ -1,0 +1,15 @@
+{
+  "name": "Iron Helmet",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 3600,
+      "price": {
+        "lead": 1,
+        "leather": 4,
+        "iron_nugget": 2
+      },
+      "amount": 1
+    }
+  ]
+}

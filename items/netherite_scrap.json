@@ -1,0 +1,15 @@
+{
+  "name": "Graphics Card",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 198000,
+      "price": {
+        "copper_ingot": 50,
+        "comparator": 5,
+        "repeater": 9
+      },
+      "amount": 1
+    }
+  ]
+}

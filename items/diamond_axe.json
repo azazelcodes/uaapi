@@ -1,0 +1,16 @@
+{
+  "name": "Diamond Axe",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 115200,
+      "price": {
+        "blaze_rod": 1,
+        "prismarine_shard": 2,
+        "iron_nugget": 5
+      },
+      "enchantments": { "sharpness": 2 },
+      "amount": 1
+    }
+  ]
+}

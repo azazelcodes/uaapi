@@ -1,0 +1,12 @@
+{
+  "name": "Copper Chestplate",
+  "buy": [
+    {
+      "npc": "ragman",
+      "rep": 0,
+      "price": { "cur": 200 },
+      "enchantments": { "protection": 1 },
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Iron Sword",
+  "craft": [
+    {
+      "station": "smithing",
+      "time": 5400,
+      "price": {
+        "lead": 1,
+        "stick": 1,
+        "iron_nugget": 1
+      },
+      "enchantments": { "sharpness": 2 },
+      "amount": 1
+    }
+  ]
+}
