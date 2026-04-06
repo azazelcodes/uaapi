@@ -1,5 +1,6 @@
 {
   "name": "Arrow",
+  "sell": 0,
   "craft": [
     {
       "station": "smithing",

@@ -1,5 +1,6 @@
 {
     "name": "Leather",
+    "sell": 5,
     "buy": [
         {
             "npc": "ragman",

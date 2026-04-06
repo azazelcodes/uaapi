@@ -1,5 +1,6 @@
 {
   "name": "Copper Chestplate",
+  "sell": 13,
   "buy": [
     {
       "npc": "ragman",

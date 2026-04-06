@@ -1,5 +1,6 @@
 {
   "name": "Copper Boots",
+  "sell": 9,
   "buy": [
     {
       "npc": "ragman",

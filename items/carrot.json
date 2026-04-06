@@ -1,5 +1,6 @@
 {
   "name": "Carrot",
+  "sell": 2,
   "buy": [
     {
       "npc": "therapist",

@@ -1,5 +1,6 @@
 {
   "name": "Shield",
+  "sell": 15,
   "buy": [
     {
       "npc": "ragman",

@@ -1,5 +1,6 @@
 {
   "name": "Iron Chestplate",
+  "sell": 25,
   "craft": [
     {
       "station": "smithing",

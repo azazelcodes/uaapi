@@ -1,5 +1,6 @@
 {
   "name": "Wooden Sword",
+  "sell": 1,
   "buy": [
     {
       "npc": "mechanic",

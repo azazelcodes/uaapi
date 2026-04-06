@@ -1,5 +1,6 @@
 {
   "name": "Iron Leggings",
+  "sell": 23,
   "craft": [
     {
       "station": "smithing",

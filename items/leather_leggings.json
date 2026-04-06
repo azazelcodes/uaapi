@@ -1,5 +1,6 @@
 {
-  "name": "Leather Leggings",
+  "name": "Leather Pants",
+  "sell": 3,
   "buy": [
     {
       "npc": "ragman",

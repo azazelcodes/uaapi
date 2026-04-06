@@ -1,5 +1,6 @@
 {
   "name": "Bow",
+  "sell": 150,
   "craft": [
     {
       "station": "smithing",

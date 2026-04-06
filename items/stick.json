@@ -1,5 +1,6 @@
 {
   "name": "Stick",
+  "sell": 12,
   "buy": [
     {
       "npc": "mechanic",

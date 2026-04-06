@@ -1,5 +1,6 @@
 {
   "name": "Cooked Cod",
+  "sell": 4,
   "buy": [
     {
       "npc": "therapist",

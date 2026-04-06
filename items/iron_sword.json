@@ -1,5 +1,6 @@
 {
   "name": "Iron Sword",
+  "sell": 23,
   "craft": [
     {
       "station": "smithing",
