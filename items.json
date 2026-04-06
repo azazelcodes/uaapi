@@ -1,5 +1,279 @@
 {
     "name_tag": {
-        "name": "Dogtag"
+        "name": "Dogtag",
+        "sell": 0
+    },
+
+    "leather": {
+        "name": "Leather",
+        "buy": [{
+            "npc": "ragman",
+            "rep": 0,
+            "price": {"leather_leggings": 2},
+            "amount": 1
+        }]
+    },
+    "shield": {
+        "name": "Shield",
+        "buy": [
+            {
+                "npc": "ragman",
+                "rep": 0,
+                "price": {"oak_button": 8},
+            "amount": 1
+            },
+            {
+                "npc": "ragman",
+                "rep": 0,
+                "price": {"cur": 30},
+            "amount": 1
+            }
+        ]
+    },
+    "copper_helmet": {
+        "name": "Copper Helmet",
+        "enchantments": {"protection":1},
+        "buy": [{
+            "npc": "ragman",
+            "rep": 0,
+            "price": {"cur": 150},
+            "amount": 1
+        }]
+    },
+    "copper_chestplate": {
+        "name": "Copper Chestplate",
+        "enchantments": {"protection":1},
+        "buy": [{
+            "npc": "ragman",
+            "rep": 0,
+            "price": {"cur": 200},
+            "amount": 1
+        }]
+    },
+    "leather_leggings": {
+        "name": "Leather Leggings",
+        "buy": [{
+            "npc": "ragman",
+            "rep": 0,
+            "price": {"cur": 20},
+            "amount": 1
+        }]
+    },
+    "copper_boots": {
+        "name": "Copper Boots",
+        "enchantments": {"protection":1},
+        "buy": [{
+            "npc": "ragman",
+            "rep": 0,
+            "price": {"cur": 140},
+            "amount": 1
+        }]
+    },
+
+    "potato": {
+        "name": "Potato",
+        "buy": [{
+            "npc": "therapist",
+            "rep": 0,
+            "price": {"cur": 3},
+            "amount": 6
+        }]
+    },
+    "carrot": {
+        "name": "Carrot",
+        "buy": [{
+            "npc": "therapist",
+            "rep": 0,
+            "price": {"cur": 6},
+            "amount": 2
+        }]
+    },
+    "mutton": {
+        "name": "Raw Mutton",
+        "buy": [{
+            "npc": "therapist",
+            "rep": 0,
+            "price": {"cur": 7},
+            "amount": 2
+        }]
+    },
+    "cooked_cod": {
+        "name": "Cooked Cod",
+        "buy": [{
+            "npc": "therapist",
+            "rep": 0,
+            "price": {"cod": 1},
+            "amount": 1
+        }]
+    },
+
+    "string": {
+        "name": "String",
+        "sell": 1,
+        "buy": [{
+            "npc": "mechanic",
+            "rep": 0,
+            "price": {"kelp": 10},
+            "amount": 1
+        }]
+    },
+    "stick": {
+        "name": "Stick",
+        "buy": [{
+            "npc": "mechanic",
+            "rep": 0,
+            "price": {"wooden_sword": 2},
+            "amount": 1
+        }]
+    },
+    "wooden_sword": {
+        "name": "Wooden Sword",
+        "buy": [{
+            "npc": "mechanic",
+            "rep": 0,
+            "price": {"cur": 6},
+            "amount": 1
+        }]
+    },
+    "wooden_axe": {
+        "name": "Wooden Axe",
+        "buy": [{
+            "npc": "mechanic",
+            "rep": 0,
+            "price": {"cur": 15},
+            "amount": 1
+        }]
+    },
+    "copper_sword": {
+        "name": "Copper Sword",
+        "enchantments": {"sharpness":1},
+        "buy": [
+            {
+                "npc": "mechanic",
+                "rep": 0,
+                "price": {"cur": 45},
+                "amount": 1
+            },
+            {
+                "npc": "mechanic",
+                "rep": 0,
+                "price": {
+                    "copper_ingot": 2,
+                    "bamboo": 1
+                },
+                "amount": 1
+            }
+        ]
+    },
+
+    "iron_sword": {
+        "name": "Iron Sword",
+        "enchantments": {"sharpness":2},
+        "craft": [{
+            "station": "smithing",
+            "time": 5400,
+            "price": {
+                "lead": 1,
+                "stick": 1,
+                "iron_nugget": 1
+            }
+        }]
+    },
+    "diamond_axe": {
+        "name": "Diamond Axe",
+        "enchantments": {"sharpness":2},
+        "craft": [{
+            "station": "smithing",
+            "time": 115200,
+            "price": {
+                "blaze_rod": 1,
+                "prismarine_shard": 2,
+                "iron_nugget": 5
+            }
+        }]
+    },
+    "bow": {
+        "name": "Bow",
+        "craft": [{
+            "station": "smithing",
+            "time": 1800,
+            "price": {
+                "stick": 2,
+                "string": 3,
+                "tripwire_hook": 1
+            }
+        }]
+    },
+    "iron_helmet": {
+        "name": "Iron Helmet",
+        "craft": [{
+            "station": "smithing",
+            "time": 3600,
+            "price": {
+                "lead": 1,
+                "leather": 4,
+                "iron_nugget": 2
+            }
+        }]
+    },
+    "iron_chestplate": {
+        "name": "Iron Chestplate",
+        "craft": [{
+            "station": "smithing",
+            "time": 3600,
+            "price": {
+                "lead": 1,
+                "leather": 4,
+                "iron_nugget": 2
+            }
+        }]
+    },
+    "iron_leggings": {
+        "name": "Iron Leggings",
+        "craft": [{
+            "station": "smithing",
+            "time": 3600,
+            "price": {
+                "lead": 1,
+                "leather": 4,
+                "iron_nugget": 2
+            }
+        }]
+    },
+    "iron_boots": {
+        "name": "Iron Boots",
+        "craft": [{
+            "station": "smithing",
+            "time": 3600,
+            "price": {
+                "lead": 1,
+                "leather": 4,
+                "iron_nugget": 2
+            }
+        }]
+    },
+    "netherite_scrap": {
+        "name": "Graphics Card",
+        "craft": [{
+            "station": "smithing",
+            "time": 198000,
+            "price": {
+                "copper_ingot": 50,
+                "comparator": 5,
+                "repeater": 9
+            }
+        }]
+    },
+    "arrow": {
+        "name": "Arrow",
+        "craft": [{
+            "station": "smithing",
+            "time": 1800,
+            "price": {
+                "stick": 5,
+                "flint": 5,
+                "feather": 5
+            }
+        }]
     }
 }
