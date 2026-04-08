@@ -1,0 +1,13 @@
+{
+    "name": "Errands",
+    "desc": "Great that you're here! I've been needing someone to run some errands for me.",
+    "cond": {
+        "collect": {"bone_meal":3},
+        "hand_in": {"bone_meal":3}
+    },
+    "rew": {
+        "rep": 0.01,
+        "items": {"copper_helmet":1, "copper_chestplate":1, "copper_leggings":1, "copper_boots":1},
+        "cur": 200
+    }
+}
