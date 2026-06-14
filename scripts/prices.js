@@ -2,8 +2,10 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-const before = process.env.GITHUB_EVENT_BEFORE || `${process.env.GITHUB_SHA}~1`;
-const after = process.env.GITHUB_SHA;
+//const before = process.env.GITHUB_EVENT_BEFORE || `${process.env.GITHUB_SHA}~1`;
+//const after = process.env.GITHUB_SHA;
+const before = "07eb328eeca45bf26bc83c6004a2cf07824497c3";
+const after = "d325f4ecc459fb26ae519983e916aafc493d6d39";
 
 const diff = execSync(`git diff --name-status ${before} ${after}`)
   .toString()
@@ -16,29 +18,27 @@ diff.forEach((line) => {
 
   if (!file.endsWith(".json")) return;
   if (file.endsWith(".index.json")) return;
-  if (!file.startsWith("quests/")) return;
+  if (!file.startsWith("items/")) return;
 
-  let oldName = null;
-  let newName = null;
-
-  let issuer = file.split("/")[1]; // FIXME: very stupid, works for now
+  let oldPrice = null;
+  let newPrice = null;
 
   if (status !== "A") {
     // not new creation
     try {
       const oldContent = execSync(`git show ${before}:${file}`).toString();
-      oldName = JSON.parse(oldContent).name ?? null;
+      oldPrice = JSON.parse(oldContent).sell ?? null;
     } catch {}
   }
   if (status !== "D") {
     // not deletion
     try {
       const newContent = fs.readFileSync(file, "utf8");
-      newName = JSON.parse(newContent).name ?? null;
+      newPrice = JSON.parse(newContent).sell ?? null;
     } catch {}
   }
 
-  const index = path.join("quests", `${issuer.toLowerCase()}.index.json`);
+  const index = path.join("items", "prices.index.json");
   let data = {};
   try {
     data = JSON.parse(fs.readFileSync(index, "utf8"));
@@ -46,18 +46,18 @@ diff.forEach((line) => {
 
   switch (status) {
     case "M": // modified
-      if (oldName !== newName) {
-        delete data[oldName];
-        data[newName] = path.basename(file, ".json");
+      if (oldPrice !== newPrice) {
+        delete data[oldPrice];
+        data[path.parse(file).name] = newPrice;
       }
       break;
 
     case "D": // deleted
-      delete data[oldName];
+      delete data[oldPrice];
       break;
 
     case "A": // created
-      data[newName] = path.basename(file, ".json");
+      data[path.parse(file).name] = newPrice;
       break;
 
     default: // unknown

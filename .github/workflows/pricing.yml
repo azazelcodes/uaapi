@@ -1,0 +1,35 @@
+name: Index Prices
+
+on:
+  push:
+    paths:
+      - "items/*.json"
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "24"
+
+      - name: Update item prices
+        run: node scripts/prices.js
+
+      - name: Commit updated prices
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add items/prices.index.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "[⚙️] Update price index JSON file"
+            git push
+          fi
