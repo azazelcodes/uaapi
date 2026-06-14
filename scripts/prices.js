@@ -2,10 +2,8 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-//const before = process.env.GITHUB_EVENT_BEFORE || `${process.env.GITHUB_SHA}~1`;
-//const after = process.env.GITHUB_SHA;
-const before = "07eb328eeca45bf26bc83c6004a2cf07824497c3";
-const after = "d325f4ecc459fb26ae519983e916aafc493d6d39";
+const before = process.env.GITHUB_EVENT_BEFORE || `${process.env.GITHUB_SHA}~1`;
+const after = process.env.GITHUB_SHA;
 
 const diff = execSync(`git diff --name-status ${before} ${after}`)
   .toString()
