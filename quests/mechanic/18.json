@@ -1,0 +1,8 @@
+{
+    "name": "Prototype - Part 3",
+    "desc": "Diamond Axe now, try not to break the bank.",
+    "cond": {
+	"kill": {"diamond_axe":{"player":20}}
+    },
+    "rew": {}
+}

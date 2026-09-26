@@ -1,0 +1,8 @@
+{
+    "name": "Decontamination",
+    "desc": "I really need some help with these guys.",
+    "cond": {
+	"kill_se": {"":{"zombie":20}}
+    },
+    "rew": {}
+}

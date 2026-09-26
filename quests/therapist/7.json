@@ -1,0 +1,8 @@
+{
+    "name": "Checkup",
+    "desc": "Please make sure my jewelery store is still safe! Ragman told me that it's been robbed!",
+    "cond": {
+	"look": ["jewler"]
+    },
+    "rew": {}
+}

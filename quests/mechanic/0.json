@@ -1,0 +1,11 @@
+{
+    "name": "Zero Gratification",
+    "desc": "So, you too huh? Seems like every mercenary is looking for the same thing you are. Seems as if all of you have some kind of death wish. I feel sorry for you, player",
+    "cond": {
+	"kill": {"":{"player":5}},
+	"give": {"nametag":5}
+    },
+    "rew": {
+	
+    }
+}

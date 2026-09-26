@@ -1,0 +1,8 @@
+{
+    "name": "The Escapist",
+    "desc": "Kill six players within a single raid? I need this blood fresh!",
+    "cond": {
+	"kill_seo": {"":{"player":6}}
+    },
+    "rew": {}
+}

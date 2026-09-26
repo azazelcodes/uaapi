@@ -1,0 +1,13 @@
+{
+    "name": "Restocking",
+    "desc": "Can you be a dear and help me restock some of my shelves?",
+    "cond": {
+	"give": {
+	    "porkchop":3,
+	    "cooked_beef":3,
+	    "beetroot_soup":3,
+	    "dried_kelp":3
+	}
+    },
+    "rew": {}
+}

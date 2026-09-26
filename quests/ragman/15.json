@@ -1,0 +1,8 @@
+{
+    "name": "Fashion Statement Part 2",
+    "desc": "Ya did this once before. Leather only! Let'em see your drip!",
+    "cond": {
+	"kill": {"":{"zombie":35}}
+    },
+    "rew": {}
+}

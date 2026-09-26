@@ -1,0 +1,12 @@
+{
+    "name": "Refined Plating",
+    "desc": "I'm trying something new. I'll let'ya know how it goes.",
+    "cond": {
+	"give": {
+	    "turtle_scute":6,
+	    "leather":64,
+	    "string":8
+	}
+    },
+    "rew": {}
+}

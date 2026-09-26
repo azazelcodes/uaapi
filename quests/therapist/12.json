@@ -1,0 +1,13 @@
+{
+    "name": "A Healthy Smoothie",
+    "desc": "A healthy breakfast is important for... health!",
+    "cond": {
+	"give": {
+	    "kelp":23,
+	    "beetroot":17,
+	    "carrot":23
+	},
+	"look": ["smoothie"]
+    },
+    "rew": {}
+}

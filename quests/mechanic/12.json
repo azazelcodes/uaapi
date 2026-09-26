@@ -1,0 +1,8 @@
+{
+    "name": "Repairs Needed",
+    "desc": "My oil supply has been low. Check out the shipment for me.",
+    "cond": {
+	"look": ["oil"]
+    },
+    "rew": {}
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Intermediate Armor Set",
+    "desc": "Should be easy enough. I just need'ya to get me full copper armor.",
+    "cond": {
+	"give": {
+	    "copper_helmet":1,
+	    "copper_chestplate":1,
+	    "copper_leggings":1,
+	    "copper_boots":1
+	},
+	"kill": {"":{"zombie":35}}
+    },
+    "rew": {}
+}

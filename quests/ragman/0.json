@@ -2,8 +2,7 @@
     "name": "Errands",
     "desc": "Great that you're here! I've been needing someone to run some errands for me.",
     "cond": {
-        "collect": {"bone_meal":3},
-        "hand_in": {"bone_meal":3}
+        "give_se": {"bone_meal":3}
     },
     "rew": {
         "rep": 0.01,

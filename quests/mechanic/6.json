@@ -1,0 +1,8 @@
+{
+    "name": "Prototype",
+    "desc": "New prototype. Wooden axe.",
+    "cond": {
+	"kill": {"wooden_axe":{"zombie":25}}
+    },
+    "rew": {}
+}

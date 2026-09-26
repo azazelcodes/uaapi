@@ -1,0 +1,12 @@
+{
+    "name": "Gold Rush",
+    "desc": "I need you to stash some gold.",
+    "cond": {
+	"stash": {
+	    "greenlamp": {"gold_ingot":3},
+	    "greentent": {"gold_nugget":13},
+	    "labstairs": {"raw_gold":6}
+	}
+    },
+    "rew": {}
+}

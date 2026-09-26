@@ -1,0 +1,14 @@
+{
+    "name": "Missing Components",
+    "desc": "Find me something else. Stash some other stuff for me as well.",
+    "cond": {
+	"give": {
+	    "iron_ingot":2,
+	    "stone_button":44,
+	    "stick":32,
+	    "iron_nugget":16
+	},
+	"stash": {"temple":{"axolotl_bucket":1}}
+    },
+    "rew": {}
+}

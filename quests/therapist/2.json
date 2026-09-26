@@ -1,0 +1,14 @@
+{
+    "name": "Good ngiht's sleep",
+    "desc": "Hey! I've been looking to check in on some beds within the residential area of the unauthorized zone. ...go do that",
+    "cond": {
+	"look": [
+	    "bedbrown",
+	    "bedattic",
+	    "bedyellow",
+	    "bedblue1",
+	    "bedblue2"
+	]
+    },
+    "rew": {}
+}

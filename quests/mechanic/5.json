@@ -1,0 +1,8 @@
+{
+    "name": "Frugal",
+    "desc": "If you'll want to move on to me you'll need to buy my trust. Pay. Up.",
+    "cond": {
+	"give": {"cur":20000}
+    },
+    "rew": {}
+}

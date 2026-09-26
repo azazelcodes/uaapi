@@ -1,0 +1,14 @@
+{
+    "name": "Metallurgy",
+    "desc": "I'm starting to run out of Metals for my swords. Please collect some for me",
+    "cond": {
+	"give": {
+	    "raw_iron":2,
+	    "iron_nugget":6,
+	    "iron_ingot":1,
+	    "bamboo":12,
+	    "stick":4
+	}
+    },
+    "rew": {}
+}

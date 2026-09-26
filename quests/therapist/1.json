@@ -1,10 +1,12 @@
 {
-    "name": "Test",
-    "desc": "Test",
+    "name": "Supply run - Part 1",
+    "desc": "Glad to see it's still running! Sad to hear about all the zombies though. We're running low on supplies though, you'll need to obtain some. Try checking the grocery store again.",
     "cond": {
-        "kill": {"player":1,"pig":1},
-        "collect": {"arrow":1}
+	"give": {
+	    "sugar":4,
+	    "wheat":5,
+	    "beetroot":5
+	}
     },
-    "rew": {
-    }
+    "rew": {}
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Agriculture Part 2",
+    "desc": "",
+    "cond": {
+	"give": {
+	    "beetroot_seed":35,
+	    "carrot":15,
+	    "beetroot":15
+	},
+	"look_se": ["barplans"]
+    },
+    "rew": {}
+}

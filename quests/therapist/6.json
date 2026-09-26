@@ -1,0 +1,11 @@
+{
+    "name": "Fruit Salad",
+    "desc": "I'm on a diet so I need some help getting some ingredients for my fruit salad.",
+    "cond": {
+	"give": {
+	    "kelp":16,
+	    "sweet_berries":13
+	}
+    },
+    "rew": {}
+}

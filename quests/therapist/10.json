@@ -1,0 +1,8 @@
+{
+    "name": "Samples",
+    "desc": "Go sample some zombies with your fist I'm developing a recipe that may prove useful to you.",
+    "cond": {
+	"kill": {"fist":{"zombie":5}}
+    },
+    "rew": {}
+}

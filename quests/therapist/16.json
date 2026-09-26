@@ -1,0 +1,16 @@
+{
+    "name": "Big M. Charlie",
+    "desc": "HELP SHE IS GETTING ANGRY!! PLEASE GET ME SOME FOOD!! QUICK!",
+    "cond": {
+	"stash": {
+	    "gasstation":{"cooked_beef":25},
+	    "schoolkelp":{"cooked_beef":25},
+	    "milkitchen":{"cooked_beef":50}
+	},
+	"give": {
+	    "wheat":100,
+	    "kelp":100
+	}
+    },
+    "rew": {}
+}

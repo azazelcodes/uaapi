@@ -1,0 +1,8 @@
+{
+    "name": "Blood Red Dye",
+    "desc": "How did'ya think I colored my armor so exquisitely, blood makes the color pop!",
+    "cond": {
+	"lure": {"mall":{"":{"player":15}}}
+    },
+    "rew": {}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Under Construction",
+    "desc": "I'm working on some construction.",
+    "cond": {
+	"give": {
+	    "iron_ingot":1,
+	    "string":16,
+	    "stick":12
+	},
+	"look": ["policef3"]
+    },
+    "rew": {}
+}

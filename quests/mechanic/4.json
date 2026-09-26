@@ -1,0 +1,11 @@
+{
+    "name": "PMC-urgy!!",
+    "desc": "I'll need you to test out that new sword of yours. Kill some zombies and PMC's with it, see how it fairs out.",
+    "cond": {
+	"kill": {"iron_sword":{
+	    "player":5,
+	    "zombie":50
+	}}
+    },
+    "rew": {}
+}

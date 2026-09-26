@@ -1,0 +1,11 @@
+{
+    "name": "Demolitions Expert",
+    "desc": "It'll go boom.",
+    "cond": {
+	"stash": {
+	    "fsstairs": {"gunpowder":32},
+	    "maze": {"string":16}
+	}
+    },
+    "rew": {}
+}

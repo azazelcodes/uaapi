@@ -1,0 +1,8 @@
+{
+    "name": "Designer Clothing - Part 3",
+    "desc": "he copper armor supplies are somehow continuing to drop. After reviewing the footage from the CCTV camera you placed, a group of PMC's have been rummaging through my stock.",
+    "cond": {
+	"kill": {"player":7}
+    },
+    "rew": {}
+}

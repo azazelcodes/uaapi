@@ -1,0 +1,14 @@
+{
+    "name": "Advanced Armor Set",
+    "desc": "I need you to find me a full set of iron armor. Last time, I promise!!",
+    "cond": {
+	"give": {
+	    "iron_helmet":4,
+	    "iron_chestplate":4,
+	    "iron_leggings":4,
+	    "iron_boots":4
+	},
+	"lure": {"mall":{"":{"player":10}}}
+    },
+    "rew": {}
+}

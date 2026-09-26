@@ -1,0 +1,8 @@
+{
+    "name": "Big Brother",
+    "desc": "They need recharging. My apologies for putting this on you, I don't have much of a choice.",
+    "cond": {
+	"survey": ["milrelay"]
+    },
+    "rew": {}
+}

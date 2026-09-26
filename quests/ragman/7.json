@@ -1,0 +1,12 @@
+{
+    "name": "Stained Leggings",
+    "desc": "",
+    "cond": {
+	"give": {
+	    "leather_leggings":1,
+	    "beetroot":16
+	},
+	"look": ["brushmall"]
+    },
+    "rew": {}
+}

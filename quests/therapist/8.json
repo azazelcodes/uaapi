@@ -1,0 +1,12 @@
+{
+    "name": "Agriculture - Part 1",
+    "desc": "I'm working on something new. Are you willing to help me get started?",
+    "cond": {
+	"give": {
+	    "beetroot_seeds":16,
+	    "carrot":25,
+	    "potato":32
+	}
+    },
+    "rew": {}
+}

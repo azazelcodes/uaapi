@@ -1,0 +1,8 @@
+{
+    "name": "Blood on the Catwalk",
+    "desc": "You've come a long way. Let's see what you're made of.",
+    "cond": {
+	"kill_se": {"":{"player":35}}
+    },
+    "rew": {}
+}

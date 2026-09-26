@@ -1,0 +1,8 @@
+{
+    "name": "Designer Clothing - Part 2",
+    "desc": "It was the zombies. Exterminate them.",
+    "cond": {
+	"kill": {"":{"zombie":25}}
+    },
+    "rew": {}
+}

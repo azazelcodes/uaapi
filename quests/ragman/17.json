@@ -1,0 +1,11 @@
+{
+    "name": "Expensive Kicks",
+    "desc": "Some new shoes just came in stock!! Use them.",
+    "cond": {
+	"kill": {"":{
+	    "player":40,
+	    "zombie":50
+	}}
+    },
+    "rew": {}
+}

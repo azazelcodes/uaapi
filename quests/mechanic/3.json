@@ -1,0 +1,12 @@
+{
+    "name": "Woodurgy?",
+    "desc": "Going to need some handles for those swords now.",
+    "cond": {
+	"give": {
+	    "stick":6,
+	    "bamboo":12,
+	    "lead":4
+	}
+    },
+    "rew": {}
+}

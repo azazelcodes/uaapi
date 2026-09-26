@@ -1,0 +1,8 @@
+{
+    "name": "Dry Cleaning",
+    "desc": "How do'ya do without any armor? Let's see!",
+    "cond": {
+	"kill": {"":{"zombie":15}}
+    },
+    "rew": {}
+}

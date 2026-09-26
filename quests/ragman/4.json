@@ -1,0 +1,8 @@
+{
+    "name": "Designer Clothing - Part 4",
+    "desc": "Thank you. Now, help me resupply so you can buy some of this armor.",
+    "cond": {
+	"give": {"copper_ingot":32}
+    },
+    "rew": {}
+}

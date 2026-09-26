@@ -1,0 +1,8 @@
+{
+    "name": "Shooter Born In Heaven",
+    "desc": "Did I ever tell you what the definition of insanity is? Insanity is doing the exact... same fucking thing... over and over again expecting... shit to change... That. Is. Crazy.",
+    "cond": {
+	"kill": {"bow":{"player":30}}
+    },
+    "rew": {}
+}

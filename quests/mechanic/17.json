@@ -1,0 +1,8 @@
+{
+    "name": "Finders Keepers",
+    "desc": "Find my utility compass",
+    "cond": {
+	"give": {"floor_compass":1}
+    },
+    "rew": {}
+}

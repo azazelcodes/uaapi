@@ -1,0 +1,8 @@
+{
+    "name": "Examine - Part 1",
+    "desc": "I've heard of a secret Laybrinth that they use to torture people. Locate the logs for me.",
+    "cond": {
+	"look": ["tlogmil", "tlogtunnel"]
+    },
+    "rew": {}
+}

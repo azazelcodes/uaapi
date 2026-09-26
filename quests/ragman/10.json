@@ -1,0 +1,11 @@
+{
+    "name": "Shoes Tied",
+    "desc": "Lemme see some materials for some fresh kicks.",
+    "cond": {
+	"stash": {
+	    "redmbooth":{"string":16},
+	    "bluembooth":{"leather":32}
+	}
+    },
+    "rew": {}
+}

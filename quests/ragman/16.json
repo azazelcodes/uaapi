@@ -1,0 +1,9 @@
+{
+    "name": "Undercover",
+    "desc": "Another group is wearing iron chests, chain boots, and any leggings. Go dress like them.",
+    "cond": {
+	"kill": {"":{"player":6}},
+	"look": ["docsplant"]
+    },
+    "rew": {}
+}

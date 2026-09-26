@@ -1,0 +1,8 @@
+{
+    "name": "Designer Clothing - Part 1",
+    "desc": "Someone's been tampering with my clothing store! Head out there and plant a security eye in there so I can take a look.",
+    "cond": {
+	"survey": ["gugi"]
+    },
+    "rew": {}
+}

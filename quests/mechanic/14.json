@@ -1,0 +1,8 @@
+{
+    "name": "Training - Part 1",
+    "desc": "Use a wood sword.",
+    "cond": {
+	"kill": {"wooden_sword":{"player":8}}
+    },
+    "rew": {}
+}

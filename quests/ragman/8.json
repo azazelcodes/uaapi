@@ -1,0 +1,8 @@
+{
+    "name": "Signature Look",
+    "desc": "It's important to stay on brand ya know!! Use some leather leggings!",
+    "cond": {
+	"kill": {"":{"player":7}}
+    },
+    "rew": {}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Supply run - Part 2",
+    "desc": "Supplies are always low, you know what to do.",
+    "cond": {
+	"give": {
+	    "oak_button":10,
+	    "stone_button":5,
+	    "flint":16,
+	    "string":8
+	}
+    },
+    "rew": {}
+}

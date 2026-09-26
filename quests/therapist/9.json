@@ -1,0 +1,11 @@
+{
+    "name": "For Herbs!",
+    "desc": "Hey sweetie... could you grab some inconspicuous medical items? Just..keep it on the down low.",
+    "cond": {
+	"give": {
+	    "kelp":24,
+	    "fern":64
+	}
+    },
+    "rew": {}
+}

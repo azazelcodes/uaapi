@@ -1,0 +1,16 @@
+{
+    "name": "Rumors",
+    "desc": "Hey... I might sound crazy but I've heard of some oddly powerful items, mind stashing them for me?",
+    "cond": {
+	"stash": {
+	    "radioout":{"diamond_axe":1},
+	    "temple":{"diamond_axe":1}
+	},
+	"look_se": [
+	    "ddocstemple",
+	    "ddocsradioout",
+	    "ddocsradioin"
+	]
+    },
+    "rew": {}
+}

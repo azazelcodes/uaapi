@@ -1,0 +1,8 @@
+{
+    "name": "Prototype - Part 2",
+    "desc": "They stole an iron axe from the shipment. Use it to kill them, heh. Irony.",
+    "cond": {
+	"kill": {"iron_axe":{"player":7}}
+    },
+    "rew": {}
+}

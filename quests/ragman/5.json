@@ -1,0 +1,8 @@
+{
+    "name": "Fashion Statement - Part 1",
+    "desc": "Hello again! I need to do a quick test on some of my gear, please help as I do so.",
+    "cond": {
+	"kill": {"":{"player":10}}
+    },
+    "rew": {}
+}

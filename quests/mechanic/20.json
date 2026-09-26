@@ -1,0 +1,8 @@
+{
+    "name": "Get It Done",
+    "desc": "It's. Never. Enough.",
+    "cond": {
+	"kill": {"":{"player":80}}
+    },
+    "rew": {}
+}

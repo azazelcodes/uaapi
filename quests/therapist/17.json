@@ -1,0 +1,10 @@
+{
+    "name": "Examine - Part 2",
+    "desc": "The logs weren't enough. I need you to go deeper.",
+    "cond": {
+	"look": ["tloggraveyard", "execorder"],
+	"stash": {"temple":{"diamond":1}},
+	"lure": {"temple":{"":{"zombie":1}}}
+    },
+    "rew": {}
+}

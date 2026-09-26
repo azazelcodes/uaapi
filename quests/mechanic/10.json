@@ -1,0 +1,11 @@
+{
+    "name": "Stolen Property",
+    "desc": "I believe that my suppliers are conning me. Hand in the cargo manifests from hotel room 04 and the barracks by the Virtue building.",
+    "cond": {
+	"give": {
+	    "floor_cargo1":1,
+	    "floor_cargo2":1
+	}
+    },
+    "rew": {}
+}

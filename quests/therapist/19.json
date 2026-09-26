@@ -1,0 +1,13 @@
+{
+    "name": "Seventeen",
+    "desc": "I need you to do something for me. Don't ask why.",
+    "cond": {
+	"stash": {"temple":{
+	    "kelp":17,
+	    "axolotl_bucket":1
+	}},
+	"lure": {"temple":{"":{"zombie":1}}},
+	"look": ["banknote"]
+    },
+    "rew": {}
+}

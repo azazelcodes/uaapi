@@ -1,0 +1,8 @@
+{
+    "name": "Aquaintances",
+    "desc": "They aren't exactly my friends.",
+    "cond": {
+	"kill": {"":{"player":8}}
+    },
+    "rew": {}
+}

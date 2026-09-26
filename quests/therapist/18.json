@@ -1,0 +1,8 @@
+{
+    "name": "Mistakes Were Made",
+    "desc": "...",
+    "cond": {
+	"kill_se": {"":{"player":20}}
+    },
+    "rew": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Requiem",
+    "desc": "An act or token of remembrance.",
+    "cond": {
+	"kill_seo": {"":{"player":15}}
+    },
+    "rew": {}
+}
